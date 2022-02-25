@@ -1,0 +1,3 @@
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/cmake-build-debug/CMakeFiles/Project_1.dir
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/FileIO.h
+stdio.h
+-
+
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/randomiser.h
+FileIO.h
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/FileIO.h
+
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/sort.h
+
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/src/FileIO.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+../lib/FileIO.h
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/FileIO.h
+
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/src/main.c
+../lib/FileIO.h
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/FileIO.h
+../lib/sort.h
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/sort.h
+../lib/randomiser.h
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/randomiser.h
+
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/src/randomiser.c
+../lib/randomiser.h
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/randomiser.h
+../lib/sort.h
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/sort.h
+time.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/src/sort.c
+../lib/FileIO.h
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/FileIO.h
+../lib/sort.h
+D:/Desktop/COMP10050_SoftwareEngineering/Project 1/lib/sort.h
+string.h
+-
+
